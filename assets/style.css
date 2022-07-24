@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    max-width: 1300px;
+    width: 100%;
+    margin:auto; 
+}
+
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 35%, rgba(113,2,5,1) 35%);
+}
+
+.content_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.menu_header {
+    padding-right: 22px;
+}
+
+.menu_header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu_header nav ul li {
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.menu_header nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 202, 202);
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.menu_header nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.menu_header nav ul li:last-child {
+    padding-right: 0px;
+}
+
+.menu_header nav ul li:first-child {
+     padding-left: 0px;
+}
+
+.banner {
+    background-image: url(../images/Banner_1.jpg);
+    height: calc(100vh - 120px);
+    background-position: center;
+}
+
+.complement_header {
+    background-color: goldenrod;
+}
+
+.complement_header-content nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+}
+
+.complement_header-content nav ul li {
+    padding: 10px 0px;
+}
+
+.complement_header-content nav ul li a {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-left: 1px solid #fff; 
+}
+
+.complement_header-content nav ul li a:hover {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: red;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.last_li {
+    border-right: 1px solid #fff;
+}
+
+.content_main {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#content_main_item {
+
+    height: 350px;
+    width: 230px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    margin: 50px 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 175px);
+    background-color: rgb(19, 19, 19);
+    
+}
+
+.content_main_1_image {
+    background-image: url('../images/Estudantes_estudando.jpg');
+    background-size: cover;
+}
+
+.content_main_2_image {
+    background-image: url('../images/Adolescente_estudando.jpg');
+    background-size: cover;
+}
+
+.content_main_3_image {
+    background-image: url('../images/Homem_trabalhando.jpg');
+    background-size: cover;
+}
+
+.content_main_4_image {
+    background-image: url('../images/HighSchool_estudantes.jpg');
+    background-size: cover;
+}
+
+
+
+
+
